@@ -341,6 +341,56 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* ------------------------------------------------------------------ */
+/* d. Postdocs Section
+/* ------------------------------------------------------------------ */
+
+#postdocs {
+   background: #fff;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
+
+#postdocs a, #resume a:visited  { color: #11ABB0; }
+#resume a:hover, #resume a:focus { color: #313131; }
+
+#postdocs h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#postdocs h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#postdocs h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#postdocs .header-col { padding-top: 9px; }
+#postdocs .main-col { padding-right: 10%; }
+
+.education, .work {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
+#postdocs .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#postdocs .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#postdocs .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+
+/* ------------------------------------------------------------------ */
 /* d. Papers Section
 /* ------------------------------------------------------------------ */
 
