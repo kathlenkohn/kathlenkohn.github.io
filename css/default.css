@@ -833,6 +833,11 @@ properly.
 .classic-paragraph {
 
 }
+
+.open-position {
+   font-weight: 600;
+}
+
 .link-in-text {
    color: #F06000 !important;
 }
