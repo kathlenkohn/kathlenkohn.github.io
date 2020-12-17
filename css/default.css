@@ -803,5 +803,60 @@ properly.
 }
 
 
+.ribosome {
+   display: block;
+   max-width: 200px;
+}
+.ellipse {
+
+}
+.attractors {
+
+}
+.scalogram {
+
+}
+.inner-header {
+   color: black;
+   font-style: italic;
+   
+}
+.h2-header {
+   font-size: 18px !important;
+   color: #838C95;
+   font-weight: normal;
+}
+.h3-header {
+   font-size: 20px !important;
+
+}
+.classic-paragraph {
+
+}
+.link-in-text {
+   color: #F06000 !important;
+}
+.link-in-text:visited {
+   color: #9e3f00 !important;
+}
+.link-in-text:hover {
+   transform: rotate(-180deg) !important;
+   color: rgb(197, 185, 7) !important;
+}
+@media  (min-width: 770px){
+   .ribosome {
+      box-sizing: border-box;
+      max-width: 300px;
+      padding-right: 45px;
+      padding-top: 30px;
+      shape-outside: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+      float: left;
+
+   }
+   .ellipse {
+      margin-left: 15%;
+  
+   }
+}
 
 
