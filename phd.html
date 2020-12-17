@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
 <head>
 
    <!--- Basic Page Needs
    ================================================== -->
    <meta charset="utf-8">
-	<title>Kathlén Kohn</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
+   <title>Kathlén Kohn</title>
+   <meta name="description" content="">
+   <meta name="author" content="">
 
    <!-- Mobile Specific Metas
    ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<!-- CSS
+   <!-- CSS
     ================================================== -->
    <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/layout.css">
    <link rel="stylesheet" href="css/media-queries.css">
    <link rel="stylesheet" href="css/magnific-popup.css">
 
    <!-- Script
    ================================================== -->
-	<script src="js/modernizr.js"></script>
+   <script src="js/modernizr.js"></script>
 
    <!-- Favicons
 	================================================== -->
-	<link rel="shortcut icon" href="infinity.png" >
+   <link rel="shortcut icon" href="infinity.png">
 
 </head>
 
@@ -41,7 +44,7 @@
       <nav id="nav-wrap">
 
          <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+         <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
          <ul id="nav" class="nav">
             <li class="current"><a href="index.html">Home</a></li>
@@ -53,64 +56,142 @@
       <div class="row education">
 
          <div class="nine columns main-col">
-	
-	    <div class="row item">
+
+            <div class="row item">
 
                <div class="twelve columns">
 
-                  <h3>PhD position in Applied Mathematics, specialization in Machine Learning</h3>
-                  <p class="info">Application deadline <span>&bull;</span> <em class="date">11. March 2021 11:59 PM CET</em></p>
-<p class="info">How to apply<span>&bull;</span> <em class="date">TBA</em></p>
-		       The successful candidate will pursue a PhD project centered around the theoretical foundations of machine learning under the supervision of <a href="https://people.kth.se/~janden/">Joakim Andén</a> and <a href="https://kathlenkohn.github.io/">Kathlén Kohn</a>.
-		 The position is a time-limited, full-time, five year position starting at an agreed upon date.
-The position is fully funded for four years and will be extended to five years by assigning teaching duties.
-The student will be enrolled in the <a href="https://www.kth.se/en/sci/forskning/forskarutbildning/doktorsprogrammet-i-tillampad-matematik-och-berakningsmatematik-1.796276">Doctoral program in Applied and Computational Mathematics</a>.
-	Moreover, the successful candidate will be part of vibrant and diverse research groups in algebraic geometry and mathematical statistics as well as the newly established unit <a href="https://www.kth.se/math/mathematics-of-data">Mathematics of Data and AI</a>.
-		  Students interested in fields related to the following are encouraged to apply: algebraic / complex / differential / discrete geometry, artificial intelligence, statistics.
-		       </br></br>		 
-		    The theme of the possible research projects is <b>Convergence in Learning</b>.</br>
-		Many machine learning models rely on optimization procedures that fit various parameters to a given training dataset.
-While the convergence behavior of classical methods (such as shrinkage models, decision trees, and support vector machines) is relatively well understood, less is known for deeper models, such as neural networks.
-A similar problem occurs for models based on low-rank matrix factorization.
-Both methods involve non-convex optimization and convergence to global minima is not guaranteed.
-Nonetheless, neural networks and low-rank matrix factorization achieve impressive results in a wide variety of tasks.
-Understanding the convergence behavior of these and characterizing the resulting models is therefore of great importance.
-Recent work has started illuminating these questions for specific classes of neural networks and matrix factorization methods.
-Other work has focused on characterizing the properties of the networks once converged.
-The successful candidate will work on extending these results by combining ideas from algebraic geometry and statistical signal processing, while anchoring the theoretical analysis in concrete problems in computer vision and cryogenic electron microscopy (cryo-EM).
-One of the following projects, each illuminating different aspects of the above problem, possibly in combination with one or two side projects, will form the core research subject of a doctoral thesis.	 
-</br></br>
-	<b>Scattering transforms</b> </br>
-	These transforms were introduced as convolutional networks with fixed weights that guarantee certain invariance and stability properties with respect to translation and deformation.
-By explicitly encoding these symmetries, networks consisting of scattering transforms followed by a linear layer have achieved significant success in various classification and regression tasks.
-Since only a single linear layer is optimized, the problem becomes convex and a global optimum is easily found.
-In addition, the fixed structure of the scattering transform and the relative simplicity of the linear layer simplifies analysis and increases interpretability of the model.
-Understanding these networks therefore amounts to characterizing the space of linear combinations of scattering transform coefficients.
-Determining the properties of this space would specify the limitations of these networks and suggest extensions that would increase their expressivity.
-</br></br>
-	<b>Attractors of autoencoders</b> </br>	
-An important aspect of autoencoders is their ability to memorize the training data, which has been recently explored from a dynamical systems perspective.
-Empirical results suggest that training examples form attractors of these autoencoders, but the theoretical reasons behind that mechanism are still not clear.
-Algebraic techniques can be applied in the setting of ReLU autoencoders with Euclidean loss, as the underlying geometric problem is to find a closest point on a semi-algebraic set.
-An open conjecture is that all training examples are attractors in a (global) minimum of the Euclidean loss of a sufficiently deep ReLU autoencoder.
-This project would investigate that conjecture as well as further conditions under which attractors are formed.
-</br></br>
-	<b>Convergence of linear networks</b> </br>	
-As linear networks are the easiest type of neural networks, many of their properties are well understood, including the structure of their critical points when using the Euclidean loss function.
-However, it remains an open problem to show that generic initializations of the network converge under gradient flow to a global minimum.
-Another project is therefore to investigate this conjecture and possibly expand it to other types of networks or loss functions.
-</br></br>
-	<b>Convergence in low-rank matrix factorization models</b> </br>
-A similar behavior is observed in low-rank matrix models.
-Recent work has shown that global convergence is possible under certain settings of linear matrix measurement using Gaussian matrices.
-However, this convergence behavior is observed for much wider classes of measurement operators.
-In particular, replacing the Gaussian sensing matrices with certain integral operators representing tomographic projection, global convergence is observed in a wide range of configurations.
-This particular setup has applications to the heterogeneity problem in cryo-EM, where a low-rank factorization model can be used to characterize the structural variability of three-dimensional density maps representing the imaged molecule.
-This project would investigate this behavior and extend previous convergence results to wider settings of measurement operators.
+                  <h1 class='h1-header'>PhD position in Applied Mathematics, specialization in Machine Learning</h1>
+                  <p class="info">Application deadline <span>&bull;</span> <em class="date">11. March 2021 11:59 PM
+                        CET</em></p>
+                  <p class="info">How to apply<span>&bull;</span> <em class="date">TBA</em></p>
+                  <p class='classic-paragraph'>The successful candidate will pursue a PhD project centered around the
+                     theoretical foundations of
+                     machine learning under the supervision of <a class='link-in-text'
+                        href="https://people.kth.se/~janden/">Joakim Andén</a>
+                     and <a class='link-in-text' href="https://kathlenkohn.github.io/">Kathlén Kohn</a>.
+                     The position is a time-limited, full-time, five year position starting at an agreed upon date.
+                     The position is fully funded for four years and will be extended to five years by assigning
+                     teaching
+                     duties.
+                     The student will be enrolled in the <a class='link-in-text'
+                        href="https://www.kth.se/en/sci/forskning/forskarutbildning/doktorsprogrammet-i-tillampad-matematik-och-berakningsmatematik-1.796276">Doctoral
+                        program in Applied and Computational Mathematics</a>.
+                     Moreover, the successful candidate will be part of vibrant and diverse research groups in algebraic
+                     geometry and mathematical statistics as well as the newly established unit <a class='link-in-text'
+                        href="https://www.kth.se/math/mathematics-of-data">Mathematics of Data and AI</a>.
+                     Students interested in fields related to the following are encouraged to apply: algebraic / complex
+                     /
+                     differential / discrete geometry, artificial intelligence, statistics.
+                  </p>
+
+
+                  <h2 class='h2-header'>The theme of the possible research projects is <span
+                        class='inner-header'>Convergence in
+                        Learning</span>.</h2>
+
+
+                  <p class='classic-paragraph'>
+                     Many machine learning models rely on optimization procedures that fit
+                     various parameters to a
+                     given
+                     training dataset.
+                     While the convergence behavior of classical methods (such as shrinkage models, decision trees, and
+                     support vector machines) is relatively well understood, less is known for deeper models, such as
+                     neural networks.
+                     A similar problem occurs for models based on low-rank matrix factorization.
+                     Both methods involve non-convex optimization and convergence to global minima is not guaranteed.
+                     Nonetheless, neural networks and low-rank matrix factorization achieve impressive results in a wide
+                     variety of tasks.
+                     Understanding the convergence behavior of these and characterizing the resulting models is
+                     therefore
+                     of great importance.
+                     Recent work has started illuminating these questions for specific classes of neural networks and
+                     matrix factorization methods.
+                     Other work has focused on characterizing the properties of the networks once converged.
+                     The successful candidate will work on extending these results by combining ideas from algebraic
+                     geometry and statistical signal processing, while anchoring the theoretical analysis in concrete
+                     problems in computer vision and cryogenic electron microscopy (cryo-EM).
+                     One of the following projects, each illuminating different aspects of the above problem, possibly
+                     in
+                     combination with one or two side projects, will form the core research subject of a doctoral
+                     thesis.
+                  </p>
+
+                  <h3 class='h3-header'>Scattering transforms </h3>
+                  <img class='scalogram' src='images/speech_scalograms.png' alt='scalogram for 2 speech signals'></img>
+                  <p class='classic-paragraph'>
+                     These transforms were introduced as convolutional networks with fixed weights that guarantee
+                     certain
+                     invariance and stability properties with respect to translation and deformation.
+                     By explicitly encoding these symmetries, networks consisting of scattering transforms followed by a
+                     linear layer have achieved significant success in various classification and regression tasks.
+                     Since only a single linear layer is optimized, the problem becomes convex and a global optimum is
+                     easily found.
+                     In addition, the fixed structure of the scattering transform and the relative simplicity of the
+                     linear
+                     layer simplifies analysis and increases interpretability of the model.
+                     Understanding these networks therefore amounts to characterizing the space of linear combinations
+                     of
+                     scattering transform coefficients.
+                     Determining the properties of this space would specify the limitations of these networks and
+                     suggest
+                     extensions that would increase their expressivity.
+                  </p>
+
+                  <h3 class='h3-header'>Attractors of autoencoders </h3>
+                  <img class='attractors' src='images/iterations_attractors.png' alt='attractors'></img>
+                  <p class='classic-paragraph'>
+                     An important aspect of autoencoders is their ability to memorize the training data, which has been
+                     recently explored from a dynamical systems perspective.
+                     Empirical results suggest that training examples form attractors of these autoencoders, but the
+                     theoretical reasons behind that mechanism are still not clear.
+                     Algebraic techniques can be applied in the setting of ReLU autoencoders with Euclidean loss, as the
+                     underlying geometric problem is to find a closest point on a semi-algebraic set.
+                     An open conjecture is that all training examples are attractors in a (global) minimum of the
+                     Euclidean
+                     loss of a sufficiently deep ReLU autoencoder.
+                     This project would investigate that conjecture as well as further conditions under which attractors
+                     are formed.
+                  </p>
+                  <h3 class='h3-header'>Convergence of linear networks </h3>
+                  <img class='ellipse' src='images/ellipse_caustic.svg' alt='caustic of an ellipse'></img>
+                  <p class='classic-paragraph'>
+                     As linear networks are the easiest type of neural networks, many of their properties are well
+                     understood, including the structure of their critical points when using the Euclidean loss
+                     function.
+                     However, it remains an open problem to show that generic initializations of the network converge
+                     under
+                     gradient flow to a global minimum.
+                     Another project is therefore to investigate this conjecture and possibly expand it to other types
+                     of
+                     networks or loss functions.
+                  </p>
+                  <h3 class='h3-header'>Convergence in low-rank matrix factorization models </h3>
+                  <p class='classic-paragraph'>
+                     <img class='ribosome' src='images/rib80s_var.png' alt="variablity map for an 80's ribosome"></img>
+                     A similar behavior is observed in low-rank matrix models.
+                     Recent work has shown that global convergence is possible under certain settings of linear matrix
+                     measurement using Gaussian matrices.
+                     However, this convergence behavior is observed for much wider classes of measurement operators.
+                     In particular, replacing the Gaussian sensing matrices with certain integral operators representing
+                     tomographic projection, global convergence is observed in a wide range of configurations.
+                     This particular setup has applications to the heterogeneity problem in cryo-EM, where a low-rank
+                     factorization model can be used to characterize the structural variability of three-dimensional
+                     density maps representing the imaged molecule.
+                     This project would investigate this behavior and extend previous convergence results to wider
+                     settings
+                     of measurement operators.
+                  </p>
+
+
+
+
+
                </div>
 
             </div> <!-- item end -->
-               
+
          </div> <!-- main-col end -->
 
       </div> <!-- End -->
@@ -127,7 +208,7 @@ This project would investigate this behavior and extend previous convergence res
 
          <div class="twelve columns">
 
-	    <ul class="copyright">
+            <ul class="copyright">
                <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
             </ul>
 
@@ -153,3 +234,7 @@ This project would investigate this behavior and extend previous convergence res
 </body>
 
 </html>
+
+
+<!-- 
+ -->
