@@ -154,7 +154,17 @@ We aim to develop a more generally applicable formal definition and to study the
                      We aim to investigate that conjecture as well as further conditions under which attractors
                      are formed.
 				 <img class='attractors' src='images/iterations_attractors.png' alt='attractors'></img></li>
-  <li><b>Equivariances:</b></li>
+  <li><b>Equivariances</b> under group actions are a key factor in our project. 
+	   A large part of the success of deep learning for 2D image interpretation is the convolutional layer, which induces translation equivariance.
+	   We want to analyze, construct and develop efficient implementations for 3d equivariances, e.g., SO(3), SE(3) and their subgroups, for instance, azimuthal rotations.
+	   Moreover, the 3D representation should be equivariant under permutation of the objects in the scene.
+	   We also plan to investigate the benefits of equivariant representations for disentanglement.</li>
+<li><b>Scene completion</b> will be a challenge in our project.
+	   Given a trained encoder-decoder model, we need to be able to perform inference on incomplete data. 
+	Typically, objects are only visible from a few viewpoints or even a single viewpoint, whereas the encoder-decoder model training usually relies on complete data. 
+	One possible approache to cope with missing datais to optimize the latent 3D representation such that it matches the given observations. 
+	More specifically, for a given 2D observation, we find the best 3D representation by minimizing the Euclidean distance between the given 2D data and the projected 3D representation.</li>
+	   <img class='attractors' src='images/ellipse_caustic.svg' alt='attractors'></img></li>
 </ol> 
 			  
       
