@@ -121,13 +121,29 @@
 			  <br><br>
 			 <b>The Goal:</b> 
 			  In recent years, generative neural network models for creation of photo-realistic images have become increasingly popular.
-			  Their training results in a low-dimensional latent space representation of a distribution from which new examples can be drawn and images be generated
+			  Their training results in a low-dimensional latent space representation of a distribution from which new examples can be drawn and images be generated.
 			  To be able to control and manipulate the images, one aims for a disentangled latent representation, so that different qualities of the resulting images are kept separate.
 			  For example, the shape of an object can be separated from its material properties, the viewing direction and the overall illumination.
 			  <br>
 			  In this project, we will go one step further and develop disentangled latent representations, not just for individual objects, but for full three-dimensional scenes with multiple objects that might change over time.
 			  The goal is to provide support for operations like adding, modifying and removing objects, changing scene conditions, modelling scene dynamics, as well as automatically complete missing parts of the 3D scene.
-
+			<br><br>
+			 <b>Possible Projects:</b>
+			  To successfully complete the project, it is necessary to develop both new theory and algorithms.
+			  On the theoretical side, algebra and geometry can be used to address the following problems:
+			 <ol>
+  <li><b>Disentanglement </b>  is a widely used concept and one of the most ambitious challenges in learning. Yet, it still lacks a widely accepted formal definition.
+The challenge is to develop learning algorithms that disentangle the different factors of variation in the data, but what  exactly that means highly depends on the application at hand.
+For instance, in order to be able to modify content of an indoor scene, we seek algorithms to learn situated and semantic encodings (e.g., positions and colors of objects or lighting).
+Several mathematical ideas have been proposed to provide a formal definition of disentanglement (e.g., statistical independence, 
+	  <a class='link-in-text' href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3306444/#:~:text=Mounting%20evidence%20suggests%20that%20%E2%80%9Ccore,in%20the%20inferior%20temporal%20cortex.">flattening manifolds</a>,  
+	  <a class='link-in-text' href="https://arxiv.org/abs/1402.4437">irreducible representations of groups</a>, 
+	  <a class='link-in-text' href="https://arxiv.org/abs/1812.02230">direct products of group actions</a>, 
+	  but none of them applies to all practical settings where disentanglement is used.
+We aim to develop a more generally applicable formal definition and to study theoretical guarantees of what can be achieved with disentanglement.</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol> 
 			  
                      An important aspect of autoencoders is their ability to memorize the training data, which has been
                      recently explored from a dynamical systems perspective.
