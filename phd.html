@@ -92,73 +92,13 @@
 			  This will deepen our understanding of 3D reconstruction and help in the design of better reconstruction algorithms. 
 			The research projects will focus on settings where efficient 3D reconstruction is out of reach for state-of-the-art algorithms, 
 			  such as 3D reconstruction from images taken by moving cameras with rolling-shutter sensors.
+
+			For more details on the interplay between algebraic geometry and computer vision, 
+			  see Chapter 13 in the textbook a href="Papers/MFO_Seminar_MAG.pdf">Metric Algebraic Geometry</a> 
+		       or the more thorough survey <a href="https://arxiv.org/pdf/2210.11443.pdf">Snapshot of Algebraic Vision</a>.
                   </p>
 
-                  <h3 class='h3-header'>Scattering transforms </h3>
-                  <img class='scalogram' src='images/speech_scalograms.png' alt='scalogram for 2 speech signals'></img>
-                  <p class='classic-paragraph'>
-                     These transforms were introduced as convolutional networks with fixed weights that guarantee
-                     certain
-                     invariance and stability properties with respect to translation and deformation.
-                     By explicitly encoding these symmetries, networks consisting of scattering transforms followed by a
-                     linear layer have achieved significant success in various classification and regression tasks.
-                     Since only a single linear layer is optimized, the problem becomes convex and a global optimum is
-                     easily found.
-                     In addition, the fixed structure of the scattering transform and the relative simplicity of the
-                     linear
-                     layer simplifies analysis and increases interpretability of the model.
-                     Understanding these networks therefore amounts to characterizing the space of linear combinations
-                     of
-                     scattering transform coefficients.
-                     Determining the properties of this space would specify the limitations of these networks and
-                     suggest
-                     extensions that would increase their expressivity.
-                  </p>
 
-                  <h3 class='h3-header'>Attractors of autoencoders </h3>
-                  <img class='attractors' src='images/iterations_attractors.png' alt='attractors'></img>
-                  <p class='classic-paragraph'>
-                     An important aspect of autoencoders is their ability to memorize the training data, which has been
-                     recently explored from a dynamical systems perspective.
-                     Empirical results suggest that training examples form attractors of these autoencoders, but the
-                     theoretical reasons behind that mechanism are still not clear.
-                     Algebraic techniques can be applied in the setting of ReLU autoencoders with Euclidean loss, as the
-                     underlying geometric problem is to find a closest point on a semi-algebraic set.
-                     An open conjecture is that all training examples are attractors in a (global) minimum of the
-                     Euclidean
-                     loss of a sufficiently deep ReLU autoencoder.
-                     This project would investigate that conjecture as well as further conditions under which attractors
-                     are formed.
-                  </p>
-                  <h3 class='h3-header'>Convergence of linear networks </h3>
-                  <img class='ellipse' src='images/ellipse_caustic.svg' alt='caustic of an ellipse'></img>
-                  <p class='classic-paragraph'>
-                     As linear networks are the easiest type of neural networks, many of their properties are well
-                     understood, including the structure of their critical points when using the Euclidean loss
-                     function.
-                     However, it remains an open problem to show that generic initializations of the network converge
-                     under
-                     gradient flow to a global minimum.
-                     Another project is therefore to investigate this conjecture and possibly expand it to other types
-                     of
-                     networks or loss functions.
-                  </p>
-                  <h3 class='h3-header'>Convergence in low-rank matrix factorization models </h3>
-                  <p class='classic-paragraph'>
-                     <img class='ribosome' src='images/rib80s_var.png' alt="variablity map for an 80's ribosome"></img>
-                     A similar behavior is observed in low-rank matrix models.
-                     Recent work has shown that global convergence is possible under certain settings of linear matrix
-                     measurement using Gaussian matrices.
-                     However, this convergence behavior is observed for much wider classes of measurement operators.
-                     In particular, replacing the Gaussian sensing matrices with certain integral operators representing
-                     tomographic projection, global convergence is observed in a wide range of configurations.
-                     This particular setup has applications to the heterogeneity problem in cryo-EM, where a low-rank
-                     factorization model can be used to characterize the structural variability of three-dimensional
-                     density maps representing the imaged molecule.
-                     This project would investigate this behavior and extend previous convergence results to wider
-                     settings
-                     of measurement operators.
-                  </p>
 
 
 
