@@ -100,6 +100,11 @@
 </ol>  
                   </p>
 
+				   <h3 class='h3-header'>Algebraic neural network theory ...</h3>
+       <p class='classic-paragraph'>
+		or <b>Neuroalgebraic Geometry</b> investigates polynomial neural networks and aims to draw conclusions for arbitrary networks via polynomial approximation. This is done by studying the geometry of the space of functions parametrized by a fixed neural network architecture, known as its <b>neuromanifold</b> (see figure above). For polynomial networks, their neuromanifolds are <b>semialgebraic sets</b>. Training such a network means to solve an optimization problem over its neuromanifold. Thus, a complete understanding of its intricate geometry would shed light on the mysteries of deep learning. The algebraic perspective enables a more concrete understanding of the <b>loss landscape</b>, which is the graph of the loss function over the neuromanifold. The goal of this project is to compare the geometry of neuromanifolds of different architectures to 1) understand the different training behavior experienced by different architectures, 2) find theoretical criteria that predict how well different architectures perform on a concrete given task (such as 3D reconstruction), and 3) design energy-efficient networks. Concrete examples of key geometric features that should be determined for neuromanifolds are their <b>singularities, boundary points, and hidden parameter symmetries</b>, as well as their effect on <b>efficient optimization and good generalization</b>.
+	   </p>
+
                    <img src='images/dogMinimalProblem.jpeg' alt='3D reconstruction' width="210"></img>
 		       <img src='images/Propellor.png' alt='propellor'width="110"></img>
 		        <img src='images/RS-effect-1.png' alt='rolling shutter effect'width="140"></img>
@@ -109,10 +114,10 @@
 
 
                   <p class='classic-paragraph'>
-                    ... is the two-way street between algebraic geometry and computer vision. Implementing fast 3D reconstruction algorithms for rolling-shutter cameras - without restricting assumptions - is a major open challenge in computer vision. 
+                    ... is the two-way street between algebraic geometry and <b>computer vision</b>. Implementing fast 3D reconstruction algorithms for <b>rolling-shutter cameras</b> - without restricting assumptions - is a major open challenge in computer vision. 
 					  Algebraic geometry provides the natural tools for rigorous theoretical foundations for that challenge.  </br></br>
 
-Images of rolling-shutter cameras have peculiar features: A 3D point can appear more than once on the same image, and 3D lines become higher-degree image curves. Thus, the existing theory for traditional global-shutter cameras does not apply. From the algebro-geometric perspective, rolling-shutter cameras parametrize algebraic surfaces in the Grassmannian of 3D lines, and 3D reconstruction amounts to computing fibers under rational maps. The project will exploit this inherent geometry to 1) find complete catalogs of efficiently solvable algebraic reconstruction problems (so-called minimal problems), 2) develop new intersection-theoretic tools to measure their intrinsic complexity, and 3) describe the critical loci of 3D reconstruction where problem instances are ill-conditioned and prone to numerical instability.
+Images of rolling-shutter cameras have peculiar features: A 3D point can appear more than once on the same image, and 3D lines become higher-degree image curves. Thus, the existing theory for traditional global-shutter cameras does not apply. From the algebro-geometric perspective, rolling-shutter cameras parametrize <b>algebraic surfaces in the Grassmannian</b> of 3D lines, and 3D reconstruction amounts to computing fibers under rational maps. The project will exploit this inherent geometry to 1) find complete catalogs of efficiently solvable algebraic reconstruction problems (so-called minimal problems), 2) develop new <b>intersection-theoretic tools</b> to measure their intrinsic complexity, and 3) describe the critical loci of 3D reconstruction where problem instances are <b>ill-conditioned</b> and prone to numerical instability.
 				   </br></br>
 
 If successful, the algebro-geometric foundations developed in this project will lead to the implementation of fast 3D reconstruction algorithms with rolling-shutter cameras. 
@@ -125,10 +130,7 @@ If successful, the algebro-geometric foundations developed in this project will 
 		       <img src='images/Congruence2.png' alt='line congruence' width="180"></img>
 
 			
-			  <h3 class='h3-header'>Algebraic neural network theory ...</h3>
-       <p class='classic-paragraph'>
-		or Neuroalgebraic Geometry investigates polynomial neural networks and aims to draw conclusions for arbitrary networks via polynomial approximation. This is done by studying the geometry of the space of functions parametrized by a fixed neural network architecture, known as its "neuromanifold" (see figure below). For polynomial networks, their neuromanifolds are semialgebraic sets. Training such a network means to solve an optimization problem over its neuromanifold. Thus, a complete understanding of its intricate geometry would shed light on the mysteries of deep learning. The algebraic perspective enables a more concrete understanding of the loss landscape, which is the graph of the loss function over the neuromanifold. The goal of this project is to compare the geometry of neuromanifolds of different architectures to 1) understand the different training behavior experienced by different architectures, 2) find theoretical criteria that predict how well different architectures perform on a concrete given task (such as 3D reconstruction), and 3) design energy-efficient networks. Concrete examples of key geometric features that should be determined for neuromanifolds are their singularities, boundary points, and hidden parameter symmetric, as well as their effect on efficient optimization and good generalization.
-	   </p>
+			  
 
 
 
