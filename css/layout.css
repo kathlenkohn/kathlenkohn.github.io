@@ -290,6 +290,56 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* ------------------------------------------------------------------ */
+/* d.Roles Section
+/* ------------------------------------------------------------------ */
+
+#roles {
+   background: #fff;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
+
+#roles a, #resume a:visited  { color: #11ABB0; }
+#roles a:hover, #resume a:focus { color: #313131; }
+
+#roles h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#roles h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#roles h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#roles .header-col { padding-top: 9px; }
+#roles .main-col { padding-right: 10%; }
+
+.education, .work {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
+#roles .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#roles .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#roles .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+
+/* ------------------------------------------------------------------ */
 /* d. Education Section
 /* ------------------------------------------------------------------ */
 
@@ -1426,3 +1476,4 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
+
